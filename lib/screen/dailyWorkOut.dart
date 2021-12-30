@@ -18,15 +18,7 @@ class _DailyWorkoutPageState extends State<DailyWorkoutPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: const [
-            Text("Get Fit A 30 Days"),
-            Icon(
-                Icons.delete
-            ),
-          ],
-        ),
+        title: Text("Get Fit A 30 Days"),
       ),
       body: SingleChildScrollView(
         child:
